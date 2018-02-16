@@ -27,5 +27,8 @@
     <ClInclude Include="SubtractionOperation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MultiplicationOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
