@@ -30,5 +30,8 @@
     <ClInclude Include="MultiplicationOperation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DivisionOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClInclude Include="AbstractOperation.h" />
     <ClInclude Include="AdditionOperation.h" />
+    <ClInclude Include="DivisionOperation.h" />
     <ClInclude Include="MultiplicationOperation.h" />
     <ClInclude Include="Operation.h" />
     <ClInclude Include="SubtractionOperation.h" />
