@@ -13,6 +13,7 @@ private:
 	int result;
 	std::stack<int> rpnstack;
 	Operation *operation_type(char);
+	void perform(Operation*);
 };
 
 Operation* RPNCalculator::operation_type(char operation)
@@ -31,4 +32,13 @@ Operation* RPNCalculator::operation_type(char operation)
 		std::cout << "Wrong operation!" << std::endl;
 		return 0;
 	}
+}
+
+void RPNCalculator::perform(Operation *ope)
+{
+	int a = rpnstack.top();
+	rpnstack.pop();
+	int b = rpnstack.top();
+	rpnstack.pop();
+	ope->perform(a, b);
 }
