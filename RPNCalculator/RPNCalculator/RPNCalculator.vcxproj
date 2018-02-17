@@ -120,6 +120,7 @@
     <ClInclude Include="DivisionOperation.h" />
     <ClInclude Include="MultiplicationOperation.h" />
     <ClInclude Include="Operation.h" />
+    <ClInclude Include="RPNCalculator.h" />
     <ClInclude Include="SubtractionOperation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
