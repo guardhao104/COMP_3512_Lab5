@@ -123,6 +123,9 @@
     <ClInclude Include="RPNCalculator.h" />
     <ClInclude Include="SubtractionOperation.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
