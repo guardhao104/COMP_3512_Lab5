@@ -57,6 +57,7 @@ int RPNCalculator::process_form(std::string formula)
 	{
 		if (!isdigit(c) && !isblank(c))
 		{
+			iss2.str(numbertext);
 			while (iss2 >> num)
 			{
 				rpnstack.push(num);
@@ -65,9 +66,9 @@ int RPNCalculator::process_form(std::string formula)
 			iss2.clear();
 			perform(operation_type(c));
 		}
-		else {
+		else 
+		{
 			numbertext += c;
-			iss2.str(numbertext);
 		}
 	}
 	return result;
