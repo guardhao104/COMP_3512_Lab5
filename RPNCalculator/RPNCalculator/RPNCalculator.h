@@ -44,6 +44,7 @@ void RPNCalculator::perform(Operation *ope)
 	rpnstack.pop();
 	result = ope->perform(a, b);
 	rpnstack.push(result);
+	delete ope;
 }
 
 int RPNCalculator::process_form(std::string formula)
